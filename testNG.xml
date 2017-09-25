@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="zoloAssignment">
+
+<listeners> 
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+ <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+</listeners>
+
+    <test name="Set1">
+      
+     <groups>
+      <run>
+     
+      </run>
+      </groups>  
+    
+     <classes>
+            
+            <class  name="BusinessScenarios_Component.zoloPart1Test" />
+            <class  name="BusinessScenarios_Component.zoloPart2Test" />
+            
+       </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
